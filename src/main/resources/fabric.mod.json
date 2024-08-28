@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "test-mod",
+	"version": "${version}",
+	"name": "test mod",
+	"description": "this is a mod for learning pourposes",
+	"authors": [
+		"0ff1c1alDuc3"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/test-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.officalduck.testmod.TestMod"
+		],
+		"client": [
+			"net.officalduck.testmod.TutorialModClient"
+		],
+		"fabric-datagen": [
+			"net.officalduck.testmod.TestModDataGenerator"
+		]
+	},
+	"mixins": [
+		"test-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
