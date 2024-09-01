@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model":"testmod:block/crate"
+      "model":"test-mod:block/crate"
     }
   }
 }

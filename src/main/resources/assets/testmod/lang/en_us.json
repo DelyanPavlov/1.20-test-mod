@@ -1,8 +1,8 @@
 {
-  "item.testmod.coconut": "Coconut",
-  "item.testmod.coconut_milk": "Coconut milk",
+  "item.test-mod.coconut": "Coconut",
+  "item.test-mod.coconut_milk": "Coconut milk",
 
-  "block.testmod.crate": "Crate",
+  "block.test-mod.crate": "Crate",
 
   "itemgroup.coconut": "Duck's foods and drinks "
 }
